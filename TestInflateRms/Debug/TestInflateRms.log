@@ -1,0 +1,27 @@
+﻿Build started 6/3/2013 5:11:40 PM.
+     1>Project "c:\Users\JOSE\documents\visual studio 2012\Projects\TestInflateRms\TestInflateRms\TestInflateRms.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /D _CRT_SECURE_NO_WARNINGS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\TestInflateRms.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /D _CRT_SECURE_NO_WARNINGS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt TestInflateRms.cpp
+         TestInflateRms.cpp
+     1>c:\users\jose\documents\visual studio 2012\projects\testinflaterms\testinflaterms\testinflaterms.cpp(33): warning C4101: 'li_qp' : unreferenced local variable
+     1>c:\users\jose\documents\visual studio 2012\projects\testinflaterms\testinflaterms\testinflaterms.cpp(33): warning C4101: 'li_rdtsc' : unreferenced local variable
+     1>c:\users\jose\documents\visual studio 2012\projects\testinflaterms\testinflaterms\testinflaterms.cpp(33): warning C4101: 'dwResRdtsc' : unreferenced local variable
+     1>c:\users\jose\documents\visual studio 2012\projects\testinflaterms\testinflaterms\testinflaterms.cpp(32): warning C4101: 'dwMsecQP' : unreferenced local variable
+     1>c:\users\jose\documents\visual studio 2012\projects\testinflaterms\testinflaterms\testinflaterms.cpp(32): warning C4101: 'dwGetTick' : unreferenced local variable
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\jose\documents\visual studio 2012\Projects\TestInflateRms\Debug\TestInflateRms.exe" /INCREMENTAL /NOLOGO zlibstat.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"c:\users\jose\documents\visual studio 2012\Projects\TestInflateRms\Debug\TestInflateRms.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\jose\documents\visual studio 2012\Projects\TestInflateRms\Debug\TestInflateRms.lib" /MACHINE:X86 /SAFESEH:NO Debug\stdafx.obj
+         Debug\TestInflateRms.obj
+     1>LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+     1>zlibstat.lib(adler32.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'zlibstat.lib(adler32.obj)' or at 'c:\users\jose\documents\visual studio 2012\Projects\TestInflateRms\Debug\vc100.pdb'; linking object as if no debug info
+     1>zlibstat.lib(crc32.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'zlibstat.lib(crc32.obj)' or at 'c:\users\jose\documents\visual studio 2012\Projects\TestInflateRms\Debug\vc100.pdb'; linking object as if no debug info
+     1>zlibstat.lib(inflate.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'zlibstat.lib(inflate.obj)' or at 'c:\users\jose\documents\visual studio 2012\Projects\TestInflateRms\Debug\vc100.pdb'; linking object as if no debug info
+     1>zlibstat.lib(inftrees.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'zlibstat.lib(inftrees.obj)' or at 'c:\users\jose\documents\visual studio 2012\Projects\TestInflateRms\Debug\vc100.pdb'; linking object as if no debug info
+     1>zlibstat.lib(zutil.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'zlibstat.lib(zutil.obj)' or at 'c:\users\jose\documents\visual studio 2012\Projects\TestInflateRms\Debug\vc100.pdb'; linking object as if no debug info
+         TestInflateRms.vcxproj -> c:\users\jose\documents\visual studio 2012\Projects\TestInflateRms\Debug\TestInflateRms.exe
+     1>Done Building Project "c:\Users\JOSE\documents\visual studio 2012\Projects\TestInflateRms\TestInflateRms\TestInflateRms.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.86
